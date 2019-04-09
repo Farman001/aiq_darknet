@@ -68,4 +68,4 @@ RUN curl https://raw.githubusercontent.com/Farman001/aiq_darknet/master/darknet.
 # ************ docker build .   in /newdocker folder
 # ************ docker run -dit "image_id" 
 # ************ docker ps            >>>>>>to get container ID
-# ************ docker exec -it "container_id" /bin/bash           >>>>>>>>>>>>> get into the container and do whatever shit u want!!!!!!!!!!!!!!!!!!!
+# ************ docker exec -it "container_id" /bin/bash           >>>>>>>>>>>>> get into the container and do whateve u want!!!!!!!!!!!!!!!!!!!
