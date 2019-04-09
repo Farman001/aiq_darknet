@@ -58,7 +58,7 @@ def draw_bounding_box(img, class_id, confidence, x, y, x_plus_w, y_plus_h):
     color = COLORS[class_id]
 
     cv2.rectangle(img, (x,y), (x_plus_w,y_plus_h), color, 2)
-
+    print('corners are:', x, y, x_plus_w, y_plus_h)
     cv2.putText(img, label, (x-10,y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
 # run inference through the network
