@@ -59,7 +59,7 @@ RUN mkdir -p ~/opencv cd ~/opencv && \
 RUN git clone https://github.com/pjreddie/darknet.git
 RUN cd /darknet/python
 RUN rm /darknet/python/darknet.py
-RUN curl https://raw.githubusercontent.com/Farman001/aiq_darknet/master/darknet.py > /darknet/python/darknet.py
+RUN curl -OL https://raw.githubusercontent.com/Farman001/aiq_darknet/master/darknet.py > /darknet/python/darknet.py
 
 
 
